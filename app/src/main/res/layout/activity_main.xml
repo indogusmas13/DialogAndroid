@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.intishaka.dialogandroid.MainActivity">
+
+    <Button
+        android:id="@+id/ConfirmDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ConfirmDialog" />
+
+    <Button
+        android:id="@+id/InfoDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="InfoDialog" />
+
+    <Button
+        android:id="@+id/NumberPickerDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NumberPickerDialog" />
+
+    <Button
+        android:id="@+id/LoadingDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LoadingDialog" />
+
+    <Button
+        android:id="@+id/SingleDatePickerDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SingleDatePickerDialog" />
+
+    <Button
+        android:id="@+id/MultiDatePickerDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MultiDatePickerDialog" />
+
+    <Button
+        android:id="@+id/TimeDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TimeDialog" />
+
+    <Button
+        android:id="@+id/DebugDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DebugDialog" />
+
+</LinearLayout>
